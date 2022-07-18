@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  threejs-frontend:
+    build: .
+    ports:
+      - "7001:7001"
